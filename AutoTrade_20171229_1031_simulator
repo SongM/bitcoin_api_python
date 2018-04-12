@@ -50,7 +50,7 @@ def find_buy_point_in_all_markets(markets_list, time_interval, N_candle = 200, m
 def check_buy_point(buy_point):
     #do nothing for now
     #future check current price to ema
-    #also 背离
+    #also 
     print('a buy point is triggered.')
     return buy_point['b_macd_buy']
 
@@ -119,7 +119,7 @@ def check_if_reset_buy(market_, time_interval):
     sell_point = find_buy_sell_point(market_, time_interval)
     #do nothing for now
     #future check current price to ema
-    #also 背离
+    #also 
     b_reset_buy = sell_point['b_macd_sell']
     return b_reset_buy
 
